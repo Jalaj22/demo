@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="42777" started-at="2019-07-08T07:06:27Z" finished-at="2019-07-08T07:07:10Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="42777" started-at="2019-07-08T07:06:27Z" finished-at="2019-07-08T07:07:10Z">
+      <class name="testclass.Test">
+        <test-method status="PASS" signature="setBrowser()[pri:0, instance:testclass.Test@2b80d80f]" name="setBrowser" is-config="true" duration-ms="35046" started-at="2019-07-08T12:36:27Z" finished-at="2019-07-08T12:37:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method status="PASS" signature="googletitleTest1()[pri:0, instance:testclass.Test@2b80d80f]" name="googletitleTest1" duration-ms="148" started-at="2019-07-08T12:37:02Z" finished-at="2019-07-08T12:37:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googletitleTest1 -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testclass.Test@2b80d80f]" name="closeBrowser" is-config="true" duration-ms="7552" started-at="2019-07-08T12:37:02Z" finished-at="2019-07-08T12:37:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testclass.Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

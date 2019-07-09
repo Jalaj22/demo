@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Google Page Test Suite">
+
+	<listeners>
+		<listener class-name="extentreport.ExtentReporterNG" />
+	</listeners>
+
+
+	<test name="Google Page">
+		<classes>
+		
+			<class name="testclass.Test"></class>
+			
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Google Page Test Suite]">
+  <listeners>
+    <listener class-name="extentreport.ExtentReporterNG"/>
+  </listeners>
+  <test name="Google Page(failed)">
+    <classes>
+      <class name="testclass.Test">
+        <methods>
+          <include name="googletitleTest2"/>
+          <include name="setBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- testclass.Test -->
+    </classes>
+  </test> <!-- Google Page(failed) -->
+</suite> <!-- Failed suite [Google Page Test Suite] -->
